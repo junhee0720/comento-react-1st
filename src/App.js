@@ -1,10 +1,13 @@
-import ComponentName from "./pages/ComponentName";
+import Header from "./component/Header";
+import Body from "./component/Body";
+import Fotter from "./component/Fotter";
 
 function App() {
   return (
     <div>
-        <h1>hello main</h1>
-            <ComponentName />
+        <Header />
+        <Body />
+        <Fotter />
     </div>
   );
 }
